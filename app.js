@@ -4,7 +4,7 @@ import { Server } from 'socket.io';
 import * as Y from 'yjs';
 import fetch from 'node-fetch';
 import cookieParser from 'cookie-parser';
-import { v4 as uuidv4 } from 'uuid');
+import { v4 as uuidv4 } from 'uuid';
 
 const app = express();
 const server = http.createServer(app);
